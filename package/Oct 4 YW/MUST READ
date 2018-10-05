@@ -1,0 +1,20 @@
+In this folder will contain 5 packages
+
+Once you import it, the Prefabricated Layers are available in Tiled2Unity>Prefabs>"layer you want".
+To utilize it, drag the "layer you want" onto the heirarchy on the left.
+
+1) Mariam - Package that has everything needed for Mariam to move. HOWEVER if you want the camera to track Mariam as she moves, you need the package "Mariam and Camera"
+2) Mariam and Camera - Package that has everything needed for Mariam to move and camera that follows her. Once you import this, delete the main camera that already exists in you original project. The "main camera" layer from this is necessary to allow Mariam tracking
+3) NPC Town package- This is for the NPC in the town of Rodrik. If you drag this prefab onto the hierarchy, they should all be positioned correctly. 
+4) FightManLeft - specifically packaged for Rong/TurnBasedBattle. You can access the layer here that contains all the animations.
+            animations include : Idle, Punch, Hit, Forward (which you use for moving forward or backward)
+5) FightManRight - specifically packaged for Rong/TurnBasedBattle. same details as FightManLeft
+
+Because I prefabbed the layers and then exported them, the pacakage should contain ONLY the dependencies of the layer. So there are no Rodirk information in these packages.
+
+
+To create all inclusive package without excess data:
+1) When you finished your work on the left hand side heirarchy, put them all under a GameObject/Group.
+2) Drag that GameObject/Group into Tiled2Unity>Prefabs
+4) With it highlighted still in the folder area, right click on it and export package. This should pop up a window with all the dependencies selected that it will output. You'll probably see that other items that's not in the Group is not selected/present. This is what will be packaged
+5) Name the package 
