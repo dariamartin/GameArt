@@ -1,0 +1,5 @@
+In order to use the main menu you need to go to "File" in the top left corner of unity and click on "Build Settings." Hereupon, you will
+click the "Add Open Scenes" button and add all the currently open scenes that you have (you will need to open the scenes before they will
+be considered available for addition). Put the main menu scene as "0" and the sample scene / town scene as "1." When you have both scenes
+in the correct order, exit out of the build settings (you don't have to attemp to build the game) and start the game. If you click
+on "Start," the screen should transition to the town.
