@@ -1,0 +1,21 @@
+Valkyrie Profile
+
+https://www.youtube.com/watch?v=HoGECwz8p1A
+
+Xenogears
+
+https://www.youtube.com/watch?v=Rtw3hkc32P0
+
+I envision the battle system using a combo system akin to these two games, where pressing x, triangle, or circle in our game will do
+a different kind of attack. As in Xenogears, executing the attacks in a certain order causes one to do a special attack that does
+more damage than normal. 
+We need a graphic to show both how many points each type of attack is but also how many action points (points available to be used) are
+available to the player. The idea is that if the player gets 3 points each turn, using a command like charge will allow the player to
+store up more points to be used at a single time. Alternative options would be to allow the player to defend or choose not to use all his
+points in a single round. If the player stores up more points, the combo system will reward the player by giving bonus damage when
+special combinations are used in a row. For example, if X and triangle produce a special combination, then by storing points and executing
+this combo twice in a row will result in bonus damage. I think in the future having a combo tracker (the number of special combinations
+used in one go) and a bonus damage tracker will add to the fun factor as the player tries to do more combinations. I think having three
+possible combinations for now should suffice. For now, the point system would be 2 for a strong attack (triangle), 1 for two light 
+attacks (X and circle). Adding elements or a flag to each basic attack could also influence why one type of attack is picked versus 
+another, but for now the choice is tied to doing special combinations for bonus damage.
