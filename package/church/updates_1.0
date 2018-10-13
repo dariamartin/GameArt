@@ -1,0 +1,5 @@
+10/13 12:29
+
+1) Need to change the tiles at the top left of mountain to remove some extra pixels.
+2) Need to reimport after changing some of the dirt path tiles to make paths smoother
+3) Need to adjust object layer so player can go to the sides of the shrine
