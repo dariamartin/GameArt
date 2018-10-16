@@ -1,0 +1,43 @@
+References for animation names. The names are the ones that contain underscore
+All of Mariam's animation faces right, per Rong's instructions. If needs to be left, just put 180 rotation on the Y for the layer
+-animation for Mariam 
+	– cast spell
+		-Mariam_castspell
+	-swing of sword attack
+		-Mariam_move_attack (this is better than Mariam_attack_right)
+		-Mariam_attack_right
+	-getting hit
+		-Mariam_GetSwiped
+		-Mariam_GetHit (getting hurt)	
+	-idle
+		-Mariam_Idle
+
+All of Beasts animation faces Left, per Rong's instructions. If needs to be left, just put 180 rotation on the Y for the layer
+-animation for monster battles
+	-Beast (Lavos Small)
+		- lavos small idle
+			-Beast_Idle
+		-lavos small monster get hit
+			-Beast_GetSwiped
+			-Beast_GetHit
+		-lavos small cast spell
+			-Beast_CastSpell
+		-lavos small move
+			-Beast_Moving
+			
+	-Beast2 (Lavos Big)
+		-labos big idle
+			-Beast2_Idle
+		-lavos big monster get hit
+			-Beast2_GetSwiped
+			-Beast2_GetHit
+		-lavos big cast spell
+			-Beast2_CastSpell
+		-lavos big moving
+			**TOO BIG TO MOVE
+-animation for seer
+	-Seer_Idle
+	-Seer_Move_Up
+	-Seer_Move_Down
+	-Seer_Move_Left
+	-Seer_Move_Right
