@@ -1,0 +1,7 @@
+1) The Opening Cutscene/Temple Cutscene is the first scene that we open with
+2) The Sleeping Hart Cutscene is what occurs whenever Mariam gets back to the temple after the town. For this one, it actually happens after a cutscene in town. 
+
+To have it working, you will need to set the sorting layer of the  "Temple Background" to the background layer.
+The character layers for mariam, hart and alexa to the player/default layer. 
+Then the canvas layer to the forground layer. 
+When everything is set correctly, you will yield with a black screen. Hitting play then would make things show up in order
