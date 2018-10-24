@@ -1,0 +1,5 @@
+The package named "Beast and Mariam Switched Facing.unitypackage" will contain just the animation clips of mariam and the beast.
+If you play the clips for Beast cast spell, idle, hit, swiped, moving, those should be facing right
+If you play the clips for Mairam cast spell, idle, hit, swiped, Mariam_MoveToAttack those should be facing left.
+Mariam_MoveToAttack is new, as it is an animation of her moving/walking with sword.
+It will also contain the 3 attack moves of mariam. Mariam_attack_0, Mariam_attack_1 and Mariam_attack_2 for the W,A,S control thing
